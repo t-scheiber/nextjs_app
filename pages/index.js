@@ -90,7 +90,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="https://www.facebook.com/thomasscheiberphotography">
+          <Link href="https://www.github.com/t-scheiber/">
             <div className={styles.half}>
               <Image src="/files/github.svg" alt="Github-Logo" width={80} height={80} />
               <p>Github</p>
