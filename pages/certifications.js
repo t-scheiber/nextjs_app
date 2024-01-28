@@ -68,7 +68,7 @@ export default function Home() {
           <a className={styles.links} href="/files/pdf/EF_Certificate.pdf#zoom=110%">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/ef.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/EF.png" />
               </span>
               EF Language School C1
             </li>
