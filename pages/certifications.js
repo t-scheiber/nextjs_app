@@ -33,7 +33,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.heading}>Certificates</div>
         <ul className={styles.liste}>
-          <a href="/files/Meta-Front-End-Dev-Certificate.pdf">
+          <a className={styles.links} href="/files/Meta-Front-End-Dev-Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/meta.png" />
@@ -41,7 +41,7 @@ export default function Home() {
               Meta Front-End Developer
             </li>
           </a>
-          <a href="/files/AWS_Certificate.pdf">
+          <a className={styles.links} href="/files/AWS_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/aws.png" />
@@ -49,7 +49,7 @@ export default function Home() {
               AWS Cloud Solutions Architect
             </li>
           </a>
-          <a href="/files/IT-Automation-Python_Certificate.pdf">
+          <a className={styles.links} href="/files/IT-Automation-Python_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/google.png" />
@@ -57,7 +57,7 @@ export default function Home() {
               Google IT Automation with Python
             </li>
           </a>
-          <a href="/files/IT-Support_Certificate.pdf">
+          <a className={styles.links} href="/files/IT-Support_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/google.png" />
@@ -65,7 +65,7 @@ export default function Home() {
               Google IT Support
             </li>
           </a>
-          <a href="/files/EF_Certificate.pdf">
+          <a className={styles.links} href="/files/EF_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/ef.png" />
@@ -73,7 +73,7 @@ export default function Home() {
               EF Language School C1
             </li>
           </a>
-          <a href="/files/FCE_Certificate.pdf">
+          <a className={styles.links} href="/files/FCE_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/cambridge.png" />
@@ -81,7 +81,7 @@ export default function Home() {
               Cambridge English: First
             </li>
           </a>
-          <a href="/files/ECDL.pdf">
+          <a className={styles.links} href="/files/ECDL.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/ecdl.png" />
@@ -89,15 +89,15 @@ export default function Home() {
               ECDL
             </li>
           </a>
-          <a href="/files/makeITsafe.pdf">
+          <a className={styles.links} href="/files/makeITsafe.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/ecpat.png" />
               </span>
-              make IT safe<sup>2.0</sup>
+              make IT safe <sup>2.0</sup>
             </li>
           </a>
-          <a href="/files/Italian_Language_Certificate.pdf">
+          <a className={styles.links} href="/files/Italian_Language_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt=" Logo" src="/files/scuolaLdV.png" />
