@@ -21,7 +21,7 @@ p {
 }
 img {
   margin: 0px auto 0px auto;
-  aspect-ratio: attr(width)/attr(height);
+  aspect-ratio: attr(width) / attr(height);
 }
 div {
   display: flex;

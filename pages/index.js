@@ -30,7 +30,10 @@ export default function Home() {
       </Head>
 
       <div className={styles.container}>
-        <a href="/files/pdf/ScheiberThomasCV.pdf" download="ScheiberThomasCV.pdf">
+        <a
+          href="/files/pdf/ScheiberThomasCV.pdf"
+          download="ScheiberThomasCV.pdf"
+        >
           <div id="cv" className={styles.tile}>
             <Image
               className={styles.cvImage}
@@ -47,6 +50,7 @@ export default function Home() {
           <div className={styles.tile} id="codingprojects">
             <Image
               src="/files/coding.png"
+              priority={true}
               alt="Coding Image"
               width={277}
               height={185}
@@ -84,14 +88,24 @@ export default function Home() {
         <div className={styles.social}>
           <Link href="https://www.linkedin.com/in/thomas-scheiber-857006151/">
             <div className={styles.half}>
-              <Image src="/files/linkedin.svg" alt="LinkedIn-Logo" width={80} height={80} />
+              <Image
+                src="/files/linkedin.svg"
+                alt="LinkedIn-Logo"
+                width={80}
+                height={80}
+              />
               <p>Linkedin</p>
             </div>
           </Link>
 
           <Link href="https://www.github.com/t-scheiber/">
             <div className={styles.half}>
-              <Image src="/files/github.svg" alt="Github-Logo" width={80} height={80} />
+              <Image
+                src="/files/github.svg"
+                alt="Github-Logo"
+                width={80}
+                height={80}
+              />
               <p>Github</p>
             </div>
           </Link>

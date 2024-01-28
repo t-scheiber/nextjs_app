@@ -33,50 +33,104 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.heading}>Certificates</div>
         <ul className={styles.liste}>
-          <a className={styles.links} href="/files/pdf/Meta-Front-End-Dev-Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/Meta-Front-End-Dev-Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/meta.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/meta.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               Meta Front-End Developer
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/AWS_Certificate.pdf#zoom=151%">
+          <a
+            className={styles.links}
+            href="/files/pdf/AWS_Certificate.pdf#zoom=151%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/aws.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/aws.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               AWS Cloud Solutions Architect
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/IT-Automation-Python_Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/IT-Automation-Python_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/google.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/google.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               Google IT Automation with Python
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/IT-Support_Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/IT-Support_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/google.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/google.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               Google IT Support
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/EF_Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/EF_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/EF.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/EF.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               EF Language School C1
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/FCE_Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/FCE_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/cambridge.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/cambridge.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               Cambridge English: First
             </li>
@@ -84,23 +138,47 @@ export default function Home() {
           <a className={styles.links} href="/files/pdf/ECDL.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/logos/ecdl.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/ecdl.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               ECDL
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/makeITsafe_Certificate.pdf#zoom=110%" >
+          <a
+            className={styles.links}
+            href="/files/pdf/makeITsafe_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt="Ecpat Logo" src="/files/logos/ecpat.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt="Ecpat Logo"
+                  src="/files/logos/ecpat.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               make IT safe <sup>2.0</sup>
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/Italian_Language_Certificate.pdf#zoom=110%">
+          <a
+            className={styles.links}
+            href="/files/pdf/Italian_Language_Certificate.pdf#zoom=110%"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt="Scuola Leonardo da Vinci Logo" src="/files/logos/scuolaLdV.png" width="40px" height="40px"/>
+                <img
+                  className={styles.images}
+                  alt="Scuola Leonardo da Vinci Logo"
+                  src="/files/logos/scuolaLdV.png"
+                  width="40px"
+                  height="40px"
+                />
               </span>
               Italian Language B1
             </li>
