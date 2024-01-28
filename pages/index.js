@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Thomas Scheiber</title>
-        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
