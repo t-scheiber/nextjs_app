@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Certifications.module.css";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -31,7 +31,11 @@ export default function Home() {
         <link rel="manifest" href="/files/favicons/site.webmanifest" />
       </Head>
       <div className={styles.container}>
-        Coming soon...
+        <ul  className={styles.liste}>
+          <li>
+
+          </li>
+        </ul>
         <Footer />
       </div>
     </div>
