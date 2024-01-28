@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.container}>
-        <a href="/files/ScheiberThomasCV.pdf" download="ScheiberThomasCV.pdf">
+        <a href="/files/pdf/ScheiberThomasCV.pdf" download="ScheiberThomasCV.pdf">
           <div id="cv" className={styles.tile}>
             <Image
               className={styles.cvImage}
