@@ -36,7 +36,7 @@ export default function Home() {
           <a className={styles.links} href="/files/Meta-Front-End-Dev-Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/meta.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/meta.png" />
               </span>
               Meta Front-End Developer
             </li>
@@ -44,7 +44,7 @@ export default function Home() {
           <a className={styles.links} href="/files/AWS_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/aws.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/aws.png" />
               </span>
               AWS Cloud Solutions Architect
             </li>
@@ -52,7 +52,7 @@ export default function Home() {
           <a className={styles.links} href="/files/IT-Automation-Python_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/google.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/google.png" />
               </span>
               Google IT Automation with Python
             </li>
@@ -60,7 +60,7 @@ export default function Home() {
           <a className={styles.links} href="/files/IT-Support_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/google.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/google.png" />
               </span>
               Google IT Support
             </li>
@@ -68,7 +68,7 @@ export default function Home() {
           <a className={styles.links} href="/files/EF_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/ef.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/ef.png" />
               </span>
               EF Language School C1
             </li>
@@ -76,7 +76,7 @@ export default function Home() {
           <a className={styles.links} href="/files/FCE_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/cambridge.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/cambridge.png" />
               </span>
               Cambridge English: First
             </li>
@@ -84,7 +84,7 @@ export default function Home() {
           <a className={styles.links} href="/files/ECDL.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/ecdl.png" />
+                <img className={styles.images} alt=" Logo" src="/files/logos/ecdl.png" />
               </span>
               ECDL
             </li>
@@ -92,7 +92,7 @@ export default function Home() {
           <a className={styles.links} href="/files/makeITsafe.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/ecpat.png" />
+                <img className={styles.images} alt="Ecpat Logo" src="/files/logos/ecpat.png" />
               </span>
               make IT safe <sup>2.0</sup>
             </li>
@@ -100,7 +100,7 @@ export default function Home() {
           <a className={styles.links} href="/files/Italian_Language_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img className={styles.images} alt=" Logo" src="/files/scuolaLdV.png" />
+                <img className={styles.images} alt="Scuola Leonardo da Vinci Logo" src="/files/logos/scuolaLdV.png" />
               </span>
               Italian Language B1
             </li>
