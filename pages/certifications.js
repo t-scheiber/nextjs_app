@@ -89,7 +89,7 @@ export default function Home() {
               ECDL
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/makeITsafe.pdf">
+          <a className={styles.links} href="/files/pdf/makeITsafe_Certificate.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img className={styles.images} alt="Ecpat Logo" src="/files/logos/ecpat.png" />
