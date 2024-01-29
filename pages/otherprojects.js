@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "../styles/Otherprojects.module.css";
 import Footer from "./Footer";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Other Projects</title>
+        <title>Certifications</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -31,7 +31,65 @@ export default function Home() {
         <link rel="manifest" href="/files/favicons/site.webmanifest" />
       </Head>
       <div className={styles.container}>
-        Coming soon...
+        <div className={styles.heading}>Other Projects</div>
+        <ul className={styles.liste}>
+          <a className={styles.links} href="https://www.darat-thaimassage.at/">
+            <li className={styles.eintrag}>
+              <span className={styles.logos}>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/darat.png"
+                  width="40px"
+                  height="40px"
+                />
+              </span>
+              Darat Thaimassage
+            </li>
+          </a>
+          <a className={styles.links} href="https://jugendlichefuerjugendliche.wordpress.com/">
+            <li className={styles.eintrag}>
+              <span className={styles.logos}>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/ju4ju.png"
+                  width="40px"
+                  height="40px"
+                />
+              </span>
+              Jugendliche für Jugendliche
+            </li>
+          </a>
+          <a className={styles.links} href="http://www.hd-projekt.at/">
+            <li className={styles.eintrag}>
+              <span className={styles.logos}>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/hdp.png"
+                  width="40px"
+                  height="40px"
+                />
+              </span>
+              HD Project
+            </li>
+          </a>
+          <a className={styles.links} href="http://www.ribo-stein.at/">
+            <li className={styles.eintrag}>
+              <span className={styles.logos}>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/ribo.png"
+                  width="40px"
+                  height="40px"
+                />
+              </span>
+              Ribo Stein <span className="retro">(alte Website)</span>
+            </li>
+          </a>
+        </ul>
         <Footer />
       </div>
     </div>
