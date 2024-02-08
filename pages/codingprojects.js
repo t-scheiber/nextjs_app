@@ -31,10 +31,15 @@ export default function Home() {
           <link rel="manifest" href="/files/favicons/site.webmanifest" />
         </Head>
         <div className={styles.container}>
-            Coming soon...
+          <div className={styles.heading}>Coding Projects</div>
+          <ul className={styles.liste}>
+            <a className={styles.links} href="github.io">
+              <li className={styles.eintrag}></li>
+            </a>
+          </ul>
+
             <Footer />
         </div>
     </div>
     );
   }
-  

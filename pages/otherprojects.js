@@ -47,7 +47,10 @@ export default function Home() {
               Darat Thaimassage
             </li>
           </a>
-          <a className={styles.links} href="https://jugendlichefuerjugendliche.wordpress.com/">
+          <a
+            className={styles.links}
+            href="https://jugendlichefuerjugendliche.wordpress.com/"
+          >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img
@@ -86,7 +89,10 @@ export default function Home() {
                   height="40px"
                 />
               </span>
-              Ribo Stein <span className="retro">(alte Website)</span>
+              <div className={styles.ribodiv}>
+                Ribo Stein
+                <span className={styles.retro}>&nbsp;&nbsp;&nbsp;Vorgängerversion</span>
+              </div>
             </li>
           </a>
         </ul>
