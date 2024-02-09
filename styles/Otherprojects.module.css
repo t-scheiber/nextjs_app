@@ -61,7 +61,7 @@
 .ribodiv{
   display: inline-flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .retro {
   font-size: 0.4em; /* Adjust the size as needed */

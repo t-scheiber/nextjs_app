@@ -1,10 +1,18 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles"; // loads tsparticles
-import { useCallback, useMemo } from "react";
+import React, { useCallback, useEffect, useMemo } from "react";
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
 const ParticlesComponent = (props) => {
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent;
+    // Simple check for mobile devices based on the user agent string
+    const mobileCheck = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+    setIsMobile(mobileCheck);
+  }, []);
   // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
   const options = useMemo(() => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
@@ -21,11 +29,11 @@ const ParticlesComponent = (props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: true, // enables the click event
+            enable: !isMobile, // enables the click event
             mode: "push", // adds the particles on click
           },
           onHover: {
-            enable: true, // enables the hover event
+            enable: !isMobile, // enables the hover event
             mode: "repulse", // make the particles run away from the cursor
           },
         },
@@ -39,12 +47,12 @@ const ParticlesComponent = (props) => {
         },
       },
       particles: {
-        number:{
-          "value": 10,
-          "density": {
-            "enable": true,
-            "value_area": 300
-          }
+        number: {
+          value: 10,
+          density: {
+            enable: true,
+            value_area: 300,
+          },
         },
         links: {
           enable: true, // enabling this will make particles linked together
