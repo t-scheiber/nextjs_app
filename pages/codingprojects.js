@@ -33,8 +33,14 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.heading}>Coding Projects</div>
           <ul className={styles.liste}>
-            <a className={styles.links} href="github.io">
-              <li className={styles.eintrag}></li>
+            <a className={styles.links} href="https://t-scheiber.github.io/AK_WeatherApp/">
+              <li className={styles.eintrag}>Weather App</li>
+            </a>
+            <a className={styles.links} href="https://t-scheiber.github.io/">
+              <li className={styles.eintrag}>Todo App</li>
+            </a>
+            <a className={styles.links} href="https://t-scheiber.github.io/">
+              <li className={styles.eintrag}>Calculator App</li>
             </a>
           </ul>
 
