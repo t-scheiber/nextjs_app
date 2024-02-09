@@ -47,6 +47,20 @@ export default function Home() {
               Darat Thaimassage
             </li>
           </a>
+          <a className={styles.links} href="https://www.europetalks.eu/">
+            <li className={styles.eintrag}>
+              <span className={styles.logos}>
+                <img
+                  className={styles.images}
+                  alt=" Logo"
+                  src="/files/logos/europetalks.png"
+                  width="40px"
+                  height="40px"
+                />
+              </span>
+              Europe Talks
+            </li>
+          </a>
           <a
             className={styles.links}
             href="https://jugendlichefuerjugendliche.wordpress.com/"
@@ -91,7 +105,9 @@ export default function Home() {
               </span>
               <div className={styles.ribodiv}>
                 Ribo Stein
-                <span className={styles.retro}>&nbsp;&nbsp;&nbsp;Vorgängerversion</span>
+                <span className={styles.retro}>
+                  &nbsp;&nbsp;&nbsp;Vorgängerversion
+                </span>
               </div>
             </li>
           </a>
