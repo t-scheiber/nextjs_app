@@ -1,5 +1,6 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles"; // loads tsparticles
+import { loadSlim } from "@tsparticles/slim";
 import React, { useCallback, useEffect, useMemo } from "react";
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
@@ -10,7 +11,10 @@ const ParticlesComponent = (props) => {
   useEffect(() => {
     const userAgent = navigator.userAgent;
     // Simple check for mobile devices based on the user agent string
-    const mobileCheck = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+    const mobileCheck =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        userAgent
+      );
     setIsMobile(mobileCheck);
   }, []);
   // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
@@ -74,7 +78,12 @@ const ParticlesComponent = (props) => {
 
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
   const particlesInit = useCallback((engine) => {
-    loadFull(engine);
+    console.log(isMobile);
+    if (!isMobile) {
+      loadFull(engine);
+    } else {
+      loadSlim(engine);
+    }
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components

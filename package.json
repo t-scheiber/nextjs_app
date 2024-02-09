@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@tsparticles/slim": "^3.2.1",
         "@vercel/speed-insights": "^1.0.8",
         "framer-motion": "^11.0.3",
         "next": "latest",
