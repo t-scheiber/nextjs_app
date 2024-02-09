@@ -34,6 +34,10 @@ div {
     overflow: scroll;
     margin: 5px auto 0 auto;
   }
+  h1 {
+    display: inline;
+    margin: 0;
+  }
 }
 @media (max-width: 800px) {
   body {
@@ -41,5 +45,11 @@ div {
     height: 100%;
     overflow: scroll;
     margin: 5px auto 0 auto;
+  }
+  h1 {
+    margin: 0.2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 23pt;
   }
 }

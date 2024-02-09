@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Codingprojects.module.css";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -34,12 +34,15 @@ export default function Home() {
           <div className={styles.heading}>Coding Projects</div>
           <ul className={styles.liste}>
             <a className={styles.links} href="https://t-scheiber.github.io/AK_WeatherApp/">
+              <li className={styles.eintrag}>Rock Paper Scissors App</li>
+            </a>
+            <a className={styles.links} href="https://t-scheiber.github.io/AK_WeatherApp/">
               <li className={styles.eintrag}>Weather App</li>
             </a>
-            <a className={styles.links} href="https://t-scheiber.github.io/">
+            <a className={styles.links} href="https://t-scheiber.github.io/TodoApp">
               <li className={styles.eintrag}>Todo App</li>
             </a>
-            <a className={styles.links} href="https://t-scheiber.github.io/">
+            <a className={styles.links} href="https://t-scheiber.github.io/CalculatorApp">
               <li className={styles.eintrag}>Calculator App</li>
             </a>
           </ul>

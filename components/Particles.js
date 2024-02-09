@@ -23,7 +23,7 @@ const ParticlesComponent = (props) => {
     return {
       autoPlay: true,
       background: {
-        color: "#111", // this sets a background color for the canvas
+        color: "#293038", // this sets a background color for the canvas
       },
       fullScreen: {
         enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
