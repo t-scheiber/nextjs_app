@@ -67,10 +67,41 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 @media (max-width: 1200px) {
   .container {
     gap: 2rem;
+    width: 740px;
+    margin: 0 auto 0 auto;
+  }
+  .tile {
+    width: 320px;
+    font-size: 20pt;
+  }
+  .half {
+    width: 150px;
+    font-size: 18pt;
+  }
+  .quarter {
+    width: 150px;
+    font-size: 16pt;
+  }
+  .social {
+    width: 320px;
+    justify-content: space-around;
+  }
+  .photography {
+    width: 320px;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    gap: 2rem;
+    max-width: 500px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .tile {
     width: 320px;

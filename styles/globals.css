@@ -26,10 +26,19 @@ img {
 div {
   display: flex;
 }
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   body {
-    width: 100%;
+    width: 320px;
     height: 100%;
     overflow: scroll;
+    margin: 5px auto 0 auto;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    width: 850px;
+    height: 100%;
+    overflow: scroll;
+    margin: 5px auto 0 auto;
   }
 }
