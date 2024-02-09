@@ -1,12 +1,23 @@
 .container {
-  margin: 0px auto 0px auto;
+  margin:  0px auto 0px auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   max-width: 832px;
   justify-content: center;
 }
-
+@media (max-width: 1200px) {
+  .container {
+    margin:  0px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+  }
+  .tile{
+    width: 300px;
+  }
+}
 .tile {
   width: 400px;
   height: 240px;
@@ -66,26 +77,5 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-@media (max-width: 1200px) {
-  .container {
-    margin: 0px auto 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    width: 100%;
-  }
-  .tile {
-    width: 300px;
-  }
-  .half {
-    width: 145px;
-  }
-  .social {
-    justify-content: center;
-  }
-  .photography {
-    justify-content: center;
-  }
+  justify-content: space-between;
 }
