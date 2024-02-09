@@ -78,12 +78,7 @@ const ParticlesComponent = (props) => {
 
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
   const particlesInit = useCallback((engine) => {
-    console.log(isMobile);
-    if (!isMobile) {
-      loadFull(engine);
-    } else {
-      loadSlim(engine);
-    }
+    loadFull(engine);
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
