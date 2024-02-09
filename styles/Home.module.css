@@ -1,22 +1,10 @@
 .container {
-  margin:  0px auto 0px auto;
+  margin: 0px auto 0px auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   max-width: 832px;
   justify-content: center;
-}
-@media (max-width: 1200px) {
-  .container {
-    margin:  0px auto 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    width: 100%;
-  }
-  .tile{
-    width: 300px;
-  }
 }
 .tile {
   width: 400px;
@@ -78,4 +66,30 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .container {
+    gap: 2rem;
+    width: 100%;
+  }
+  .tile {
+    width: 320px;
+    font-size: 20pt;
+  }
+  .half {
+    width: 150px;
+    font-size: 18pt;
+  }
+  .quarter {
+    width: 150px;
+    font-size: 16pt;
+  }
+  .social {
+    width: 320px;
+    justify-content: space-around;
+  }
+  .photography {
+    width: 320px;
+    justify-content: space-around;
+  }
 }
