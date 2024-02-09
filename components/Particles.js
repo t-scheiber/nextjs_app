@@ -1,6 +1,5 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles"; // loads tsparticles
-import { loadSlim } from "@tsparticles/slim";
 import React, { useCallback, useEffect, useMemo } from "react";
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
