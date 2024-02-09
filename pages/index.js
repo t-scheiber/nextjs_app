@@ -64,8 +64,8 @@ export default function Home() {
             <Image
               src="/files/certificates.png"
               alt="Certificate"
-              width={150}
-              height={150}
+              width={110}
+              height={110}
             />
 
             <p>All Certifications</p>
