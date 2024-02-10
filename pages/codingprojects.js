@@ -39,7 +39,7 @@ export default function Home() {
             <a className={styles.links} href="https://t-scheiber.github.io/AK_WeatherApp/">
               <li className={styles.eintrag}>Weather App</li>
             </a>
-            <a className={styles.links} href="https://t-scheiber.github.io/TodoApp">
+            <a className={styles.links} href="https://todo-app-tscheiber.vercel.app/">
               <li className={styles.eintrag}>Todo App</li>
             </a>
             <a className={styles.links} href="https://t-scheiber.github.io/CalculatorApp">
