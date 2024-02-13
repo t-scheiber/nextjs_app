@@ -42,6 +42,12 @@ export default function Home() {
             <a className={styles.links} href="https://todo-app-tscheiber.vercel.app/">
               <li className={styles.eintrag}>Todo App</li>
             </a>
+            <a className={styles.links} href="https://advanced-react-course-portfolio.vercel.app/">
+              <li className={styles.eintrag}>React Advanced Course: Portfolio App</li>
+            </a>
+            <a className={styles.links} href="https://react-basics-simplest-working-calculator-rho.vercel.app/">
+              <li className={styles.eintrag}>React Basics Course: Simplest working Calculator App</li>
+            </a>
             <a className={styles.links} href="https://t-scheiber.github.io/CalculatorApp">
               <li className={styles.eintrag}>Calculator App</li>
             </a>
