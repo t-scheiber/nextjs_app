@@ -85,7 +85,7 @@ export default function Home() {
                 height={110}
               />
 
-              <p>Other Projects</p>
+              <p>Wordpress & other Projects</p>
             </div>
           </Link>
 

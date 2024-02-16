@@ -31,7 +31,7 @@ export default function Home() {
         <link rel="manifest" href="/files/favicons/site.webmanifest" />
       </Head>
       <div className={styles.container}>
-        <div className={styles.heading}>Other Projects</div>
+        <div className={styles.heading}>Wordpress and other Projects</div>
         <ul className={styles.liste}>
           <a className={styles.links} href="https://www.darat-thaimassage.at/">
             <li className={styles.eintrag}>
