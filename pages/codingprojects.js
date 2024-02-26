@@ -51,6 +51,9 @@ export default function Home() {
             <a className={styles.links} href="https://t-scheiber.github.io/CalculatorApp">
               <li className={styles.eintrag}>Calculator App</li>
             </a>
+            <a className={styles.links} href="https://fhtw-abschlussprojekt.thomasscheiber.com">
+              <li className={styles.eintrag}>abschlussprojekt Web Development</li>
+            </a>
           </ul>
 
             <Footer />
