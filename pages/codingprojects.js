@@ -60,8 +60,11 @@ export default function Home() {
             <a className={styles.links} href="https://fhtw-uebung4.thomasscheiber.com/">
               <li className={styles.eintrag}>Patientenverwaltung</li>
             </a>
-            <a className={styles.links} href="https://fhtw-uebung3.thomasscheiber.com/">
-              <li className={styles.eintrag}>Patientenverwaltung</li>
+            <a className={styles.links} href="https://fhtw-uebung2.thomasscheiber.com/">
+              <li className={styles.eintrag}>Smart Home Steuerung</li>
+            </a>
+            <a className={styles.links} href="https://fhtw-uebung1.thomasscheiber.com/">
+              <li className={styles.eintrag}>Uebung aus Web Development</li>
             </a>
           </ul>
 
