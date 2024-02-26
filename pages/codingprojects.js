@@ -52,7 +52,16 @@ export default function Home() {
               <li className={styles.eintrag}>Calculator App</li>
             </a>
             <a className={styles.links} href="https://fhtw-abschlussprojekt.thomasscheiber.com">
-              <li className={styles.eintrag}>abschlussprojekt Web Development</li>
+              <li className={styles.eintrag}>Abschlussprojekt Web Development</li>
+            </a>
+            <a className={styles.links} href="https://fhtw-uebung5.thomasscheiber.com/">
+              <li className={styles.eintrag}>Smart Home Steuerung</li>
+            </a>
+            <a className={styles.links} href="https://fhtw-uebung4.thomasscheiber.com/">
+              <li className={styles.eintrag}>Patientenverwaltung</li>
+            </a>
+            <a className={styles.links} href="https://fhtw-uebung3.thomasscheiber.com/">
+              <li className={styles.eintrag}>Patientenverwaltung</li>
             </a>
           </ul>
 
