@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Otherprojects.module.css";
 import Footer from "./Footer";
+import Entrys from "../components/Entrys";
 
 export default function Home() {
   return (
@@ -32,67 +33,7 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <div className={styles.heading}>Wordpress and other Projects</div>
-        <ul className={styles.liste}>
-          <a className={styles.links} href="https://www.darat-thaimassage.at/">
-            <li className={styles.eintrag}>
-              <span className={styles.logos}>
-                <img
-                  className={styles.images}
-                  alt=" Logo"
-                  src="/files/logos/darat.png"
-                  width="40px"
-                  height="40px"
-                />
-              </span>
-              Darat Thaimassage
-            </li>
-          </a>
-          <a className={styles.links} href="https://www.europetalks.eu/">
-            <li className={styles.eintrag}>
-              <span className={styles.logos}>
-                <img
-                  className={styles.images}
-                  alt=" Logo"
-                  src="/files/logos/europetalks.png"
-                  width="40px"
-                  height="40px"
-                />
-              </span>
-              Europe Talks
-            </li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://jugendlichefuerjugendliche.wordpress.com/"
-          >
-            <li className={styles.eintrag}>
-              <span className={styles.logos}>
-                <img
-                  className={styles.images}
-                  alt=" Logo"
-                  src="/files/logos/ju4ju.png"
-                  width="40px"
-                  height="40px"
-                />
-              </span>
-              Jugendliche für Jugendliche
-            </li>
-          </a>
-          <a className={styles.links} href="http://www.hd-projekt.at/">
-            <li className={styles.eintrag}>
-              <span className={styles.logos}>
-                <img
-                  className={styles.images}
-                  alt=" Logo"
-                  src="/files/logos/hdp.png"
-                  width="40px"
-                  height="40px"
-                />
-              </span>
-              HD Project
-            </li>
-          </a>
-        </ul>
+          <Entrys />          
         <Footer />
       </div>
     </div>
