@@ -12,6 +12,8 @@
   padding: 0px;
   justify-content: center;
   position: relative;
+  max-height: 700px;
+  overflow-y: auto;
 }
 .heading {
   font-size: 28pt;
@@ -64,6 +66,6 @@
   justify-content: flex-start;
 }
 .retro {
-  font-size: 0.4em; /* Adjust the size as needed */
+  font-size: 0.4em;
   font-style: italic;
 }
