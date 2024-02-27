@@ -30,14 +30,15 @@ const CodingProjectsList = () => {
       name: 'Abschlussprojekt Web Development',
       url: 'https://fhtw-abschlussprojekt.thomasscheiber.com',
     },
-    {
-      name: 'Smart Home Steuerung',
-      url: 'https://fhtw-uebung7.thomasscheiber.com/',
-    },
-    {
-      name: 'Smart Home Steuerung',
-      url: 'https://fhtw-uebung6.thomasscheiber.com/',
-    },
+    // 6 + 7 funktionieren nicht mehr
+    // {
+    //   name: 'Smart Home Steuerung',
+    //   url: 'https://fhtw-uebung7.thomasscheiber.com/',
+    // },
+    // {
+    //   name: 'Smart Home Steuerung',
+    //   url: 'https://fhtw-uebung6.thomasscheiber.com/',
+    // },
     {
       name: 'Smart Home Steuerung',
       url: 'https://fhtw-uebung5.thomasscheiber.com/',
@@ -47,11 +48,11 @@ const CodingProjectsList = () => {
       url: 'https://fhtw-uebung4.thomasscheiber.com/',
     },
     {
-      name: 'Smart Home Steuerung',
+      name: 'Php Übungen',
       url: 'https://fhtw-uebung3.thomasscheiber.com/',
     },
     {
-      name: 'Smart Home Steuerung',
+      name: 'Smart Home Controller App',
       url: 'https://fhtw-uebung2.thomasscheiber.com/',
     },
     {
