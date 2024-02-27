@@ -92,25 +92,6 @@ export default function Home() {
               HD Project
             </li>
           </a>
-          <a className={styles.links} href="http://www.ribo-stein.at/">
-            <li className={styles.eintrag}>
-              <span className={styles.logos}>
-                <img
-                  className={styles.images}
-                  alt=" Logo"
-                  src="/files/logos/ribo.png"
-                  width="40px"
-                  height="40px"
-                />
-              </span>
-              <div className={styles.ribodiv}>
-                Ribo Stein
-                <span className={styles.retro}>
-                  &nbsp;&nbsp;&nbsp;Vorgängerversion
-                </span>
-              </div>
-            </li>
-          </a>
         </ul>
         <Footer />
       </div>
