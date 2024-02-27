@@ -2,10 +2,10 @@ import styles from '../styles/Codingprojects.module.css';
 
 const CodingProjectsList = () => {
   const projects = [
-    {
-      name: 'Rock Paper Scissors App',
-      url: 'https://t-scheiber.github.io/AK_WeatherApp/',
-    },
+    // {
+    //   name: 'Rock Paper Scissors App',
+    //   url: 'https://t-scheiber.github.io/AK_WeatherApp/',
+    // },
     {
       name: 'React Advanced Course: Portfolio App',
       url: 'https://advanced-react-course-portfolio.vercel.app/',
