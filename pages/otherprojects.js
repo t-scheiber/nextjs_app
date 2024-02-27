@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Otherprojects.module.css";
 import Footer from "./Footer";
-import Entrys from "../components/Entrys";
+import OtherProjectsList from "../components/OtherProjectsList";
+
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <div className={styles.heading}>Wordpress and other Projects</div>
-          <Entrys />          
+          <OtherProjectsList />         
         <Footer />
       </div>
     </div>

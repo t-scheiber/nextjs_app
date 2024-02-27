@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Codingprojects.module.css";
 import Footer from "./Footer";
+import CodingProjectsList from "../components/CodingProjectsList";
 
 export default function Home() {
   return (
@@ -32,87 +33,7 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <div className={styles.heading}>Coding Projects</div>
-        <ul className={styles.liste}>
-          <a
-            className={styles.links}
-            href="https://t-scheiber.github.io/AK_WeatherApp/"
-          >
-            <li className={styles.eintrag}>Rock Paper Scissors App</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://advanced-react-course-portfolio.vercel.app/"
-          >
-            <li className={styles.eintrag}>
-              React Advanced Course: Portfolio App
-            </li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://react-basics-simplest-working-calculator-rho.vercel.app/"
-          >
-            <li className={styles.eintrag}>
-              React Basics Course: Simplest working Calculator App
-            </li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://t-scheiber.github.io/AK_WeatherApp/"
-          >
-            <li className={styles.eintrag}>Weather App</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://todo-app-tscheiber.vercel.app/"
-          >
-            <li className={styles.eintrag}>Todo App</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://t-scheiber.github.io/CalculatorApp"
-          >
-            <li className={styles.eintrag}>Calculator App</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://fhtw-abschlussprojekt.thomasscheiber.com"
-          >
-            <li className={styles.eintrag}>Abschlussprojekt Web Development</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://fhtw-uebung5.thomasscheiber.com/"
-          >
-            <li className={styles.eintrag}>Smart Home Steuerung</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://fhtw-uebung4.thomasscheiber.com/"
-          >
-            <li className={styles.eintrag}>Patientenverwaltung</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://fhtw-uebung2.thomasscheiber.com/"
-          >
-            <li className={styles.eintrag}>Smart Home Steuerung</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://fhtw-uebung1.thomasscheiber.com/"
-          >
-            <li className={styles.eintrag}>Uebung aus Web Development</li>
-          </a>
-          <a
-            className={styles.links}
-            href="https://web.archive.org/web/20180413033202/http://www.ribo-stein.at/"
-          >
-            <li className={styles.eintrag}>
-              Alte Unternehmensseite Ribo Stein
-            </li>
-          </a>
-        </ul>
-
+        <CodingProjectsList />
         <Footer />
       </div>
     </div>
