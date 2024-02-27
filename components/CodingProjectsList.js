@@ -4,7 +4,7 @@ const CodingProjectsList = () => {
   const projects = [
     // {
     //   name: 'Rock Paper Scissors App',
-    //   url: 'https://t-scheiber.github.io/AK_WeatherApp/',
+    //   url: 'https://thomasscheiber.com',
     // },
     {
       name: 'React Advanced Course: Portfolio App',
