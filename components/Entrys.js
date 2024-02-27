@@ -1,4 +1,4 @@
-import styles from "../styles/Otherprojects.module.css"; // Make sure to replace 'YourStyles' with the actual name of your CSS module file
+import styles from "../styles/Otherprojects.module.css";
 
 const LinkList = ({ links }) => {
   return (
@@ -23,7 +23,6 @@ const LinkList = ({ links }) => {
   );
 };
 
-// Example usage
 const links = [
   /* {
     href: "https://www.villa-dijana.eu/",
