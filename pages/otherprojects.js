@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Otherprojects.module.css";
 import Footer from "./Footer";
 import OtherProjectsList from "../components/OtherProjectsList";
@@ -34,7 +32,7 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <div className={styles.heading}>Wordpress and other Projects</div>
-          <OtherProjectsList />         
+          <OtherProjectsList />
         <Footer />
       </div>
     </div>

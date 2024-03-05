@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Certifications.module.css";
 import Footer from "./Footer";
 
@@ -35,7 +33,7 @@ export default function Home() {
         <ul className={styles.liste}>
           <a
             className={styles.links}
-            href="/files/pdf/Meta_Certificate.pdf#zoom=95%"
+            href="/files/pdf/Meta_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -52,7 +50,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/AWS_Certificate.pdf#zoom=95%"
+            href="/files/pdf/AWS_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -69,7 +67,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/IT-Automation-Python_Certificate.pdf#zoom=95%"
+            href="/files/pdf/IT-Automation-Python_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -86,7 +84,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/IT-Support_Certificate.pdf#zoom=95%"
+            href="/files/pdf/IT-Support_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -103,7 +101,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/EF_Certificate.pdf#zoom=95%"
+            href="/files/pdf/EF_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -120,7 +118,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/FCE_Certificate.pdf#zoom=95%"
+            href="/files/pdf/FCE_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -135,7 +133,7 @@ export default function Home() {
               Cambridge English: First
             </li>
           </a>
-          <a className={styles.links} href="/files/pdf/ECDL.pdf#zoom=95%">
+          <a className={styles.links} href="/files/pdf/ECDL.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
                 <img
@@ -151,7 +149,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/makeITsafe_Certificate.pdf#zoom=95%"
+            href="/files/pdf/makeITsafe_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
@@ -168,7 +166,7 @@ export default function Home() {
           </a>
           <a
             className={styles.links}
-            href="/files/pdf/Italian_Language_Certificate.pdf#zoom=95%"
+            href="/files/pdf/Italian_Language_Certificate.pdf"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
