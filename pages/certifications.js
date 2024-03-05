@@ -35,7 +35,7 @@ export default function Home() {
         <ul className={styles.liste}>
           <a
             className={styles.links}
-            href="/files/pdf/Meta-Front-End-Dev-Certificate.pdf#zoom=95%"
+            href="/files/pdf/Meta_Certificate.pdf#zoom=95%"
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
