@@ -24,21 +24,21 @@ const LinkList = ({ links }) => {
 };
 
 const links = [
-  /* {
+  {
     href: "https://www.villa-dijana.eu/",
     logoSrc: "/files/logos/villadijana.png",
     name: "Villa Dijana",
-  }, */
-  /* {
+  },
+  {
     href: "https://www.europetalks.eu/",
     logoSrc: "/files/logos/europetalks.png",
     name: "Europe Talks",
-  }, */
-  /*{
+  },
+  {
     href: "https://www.mayr-dach.at/",
     logoSrc: "/files/logos/mayr.png",
     name: "Mayr Dach",
-  },*/
+  },
   {
     href: "https://www.darat-thaimassage.at/",
     logoSrc: "/files/logos/darat.png",
