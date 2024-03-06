@@ -73,7 +73,7 @@ const ParticlesComponent = (props) => {
         },
       },
     };
-  }, []);
+  }, [isMobile]);
 
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
   const particlesInit = useCallback((engine) => {

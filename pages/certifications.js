@@ -1,6 +1,8 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Certifications.module.css";
 import Footer from "./Footer";
+
 
 export default function Home() {
   return (
@@ -37,7 +39,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/meta.png"
@@ -54,7 +56,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/aws.png"
@@ -71,7 +73,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/google.png"
@@ -88,7 +90,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/google.png"
@@ -105,7 +107,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/EF.png"
@@ -122,7 +124,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/cambridge.png"
@@ -136,7 +138,7 @@ export default function Home() {
           <a className={styles.links} href="/files/pdf/ECDL.pdf">
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt=" Logo"
                   src="/files/logos/ecdl.png"
@@ -153,7 +155,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt="Ecpat Logo"
                   src="/files/logos/ecpat.png"
@@ -170,7 +172,7 @@ export default function Home() {
           >
             <li className={styles.eintrag}>
               <span className={styles.logos}>
-                <img
+                <Image
                   className={styles.images}
                   alt="Scuola Leonardo da Vinci Logo"
                   src="/files/logos/scuolaLdV.png"

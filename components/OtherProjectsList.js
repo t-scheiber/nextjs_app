@@ -1,5 +1,5 @@
 import styles from "../styles/Otherprojects.module.css";
-
+import Image from "next/image";
 const LinkList = ({ links }) => {
   return (
     <ul className={styles.liste}>
@@ -7,7 +7,7 @@ const LinkList = ({ links }) => {
         <a key={index} className={styles.links} href={link.href}>
           <li className={styles.eintrag}>
             <span className={styles.logos}>
-              <img
+              <Image
                 className={styles.images}
                 alt={`${link.name} Logo`}
                 src={link.logoSrc}

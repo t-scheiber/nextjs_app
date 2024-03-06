@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180" href={appletouch} />
         <link rel="icon" type="image/png" sizes="32x32" href={icon32} />
         <link rel="icon" type="image/png" sizes="16x16" href={icon16} />
-        <link rel="manifest" href="/files/favicons/site.webmanifest" />
+        {/* <link rel="manifest" href="/files/favicons/site.webmanifest" /> */}
       </Head>
       <div className={styles.page}>
         <div className={styles.header}>
