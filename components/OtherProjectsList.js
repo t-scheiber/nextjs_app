@@ -25,7 +25,7 @@ const LinkList = ({ links }) => {
 
 const links = [
   {
-    href: "https://www.villa-dijana.eu/",
+    href: "https://www.villadijana.eu/",
     logoSrc: "/files/logos/villadijana.png",
     name: "Villa Dijana",
   },
