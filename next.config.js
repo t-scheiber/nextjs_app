@@ -1,5 +1,3 @@
-import { getModuleBuildInfo } from "next/dist/build/webpack/loaders/get-module-build-info";
-
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
