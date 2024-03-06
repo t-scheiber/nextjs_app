@@ -1,6 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import portrait from "../public/files/portrait.jpg";
+import coding from "../public/files/coding.png";
+import certification from "../public/files/certificates.png";
+import wordpress from "../public/files/Wordpress-Logo.svg";
+import linkedin from "../public/files/linkedin.svg";
+import github from "../public/files/github.svg";
+import facebook from "../public/files/facebook.svg";
+import instagram from "../public/files/instagram.svg";
+import envelope from "../public/files/envelope-solid.svg";
+import phone from "../public/files/phone-solid.svg";
+import appletouch from "../public/files/favicons/apple-touch-icon.png";
+import icon32 from "../public/files/favicons/favicon-32x32.png";
+import icon16 from "../public/files/favicons/favicon-16x16.png";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,23 +22,9 @@ export default function Home() {
       <Head>
         <title>Thomas Scheiber</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/files/favicons/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/files/favicons/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/files/favicons/favicon-16x16.png"
-        />
+        <link rel="apple-touch-icon" sizes="180x180" href={appletouch} />
+        <link rel="icon" type="image/png" sizes="32x32" href={icon32} />
+        <link rel="icon" type="image/png" sizes="16x16" href={icon16} />
         <link rel="manifest" href="/files/favicons/site.webmanifest" />
       </Head>
       <div className={styles.page}>
@@ -41,7 +40,7 @@ export default function Home() {
             <div id="cv" className={styles.tile}>
               <Image
                 className={styles.cvImage}
-                src="/files/portrait.jpg"
+                src={portrait}
                 alt="Avatar"
                 width={150}
                 height={150}
@@ -53,7 +52,7 @@ export default function Home() {
           <Link href="/codingprojects">
             <div className={styles.tile} id="codingprojects">
               <Image
-                src="/files/coding.png"
+                src={coding}
                 priority={true}
                 alt="Coding Image"
                 width={277}
@@ -66,7 +65,7 @@ export default function Home() {
           <Link href="/certifications">
             <div className={styles.tile} id="certifications">
               <Image
-                src="/files/certificates.png"
+                src={certification}
                 alt="Certificate"
                 width={110}
                 height={110}
@@ -79,7 +78,7 @@ export default function Home() {
           <Link href="/otherprojects">
             <div className={styles.tile} id="otherprojects">
               <Image
-                src="/files/Wordpress-Logo.svg"
+                src={wordpress}
                 alt="Wordpress-Logo"
                 width={110}
                 height={110}
@@ -93,7 +92,7 @@ export default function Home() {
             <Link href="https://www.linkedin.com/in/thomas-scheiber-857006151/">
               <div className={styles.half}>
                 <Image
-                  src="/files/linkedin.svg"
+                  src={linkedin}
                   alt="LinkedIn-Logo"
                   width={80}
                   height={80}
@@ -104,12 +103,7 @@ export default function Home() {
 
             <Link href="https://www.github.com/t-scheiber/">
               <div className={styles.half}>
-                <Image
-                  src="/files/github.svg"
-                  alt="Github-Logo"
-                  width={80}
-                  height={80}
-                />
+                <Image src={github} alt="Github-Logo" width={80} height={80} />
                 <p>Github</p>
               </div>
             </Link>
@@ -118,24 +112,14 @@ export default function Home() {
           <div className={styles.photography}>
             <Link href="mailto:tom.scheiber@gmx.at">
               <div className={styles.quarter}>
-                <Image
-                  src="/files/envelope-solid.svg"
-                  alt="E-Mail me"
-                  width={50}
-                  height={50}
-                />
+                <Image src={envelope} alt="E-Mail me" width={50} height={50} />
                 <p>E-Mail</p>
               </div>
             </Link>
 
             <Link href="tel:+436502772241">
               <div className={styles.quarter}>
-                <Image
-                  src="/files/phone-solid.svg"
-                  alt="Call me"
-                  width={50}
-                  height={50}
-                />
+                <Image src={phone} alt="Call me" width={50} height={50} />
                 <p>Phone</p>
               </div>
             </Link>
@@ -143,7 +127,7 @@ export default function Home() {
             <Link href="https://www.instagram.com/thomasscheiberphotography">
               <div className={styles.quarter}>
                 <Image
-                  src="/files/instagram.svg"
+                  src={instagram}
                   alt="Instagram Logo"
                   width={50}
                   height={50}
@@ -155,7 +139,7 @@ export default function Home() {
             <Link href="https://www.facebook.com/thomasscheiberphotography">
               <div className={styles.quarter}>
                 <Image
-                  src="/files/facebook.svg"
+                  src={facebook}
                   alt="Facebook Logo"
                   width={50}
                   height={50}
